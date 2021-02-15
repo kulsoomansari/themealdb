@@ -1,0 +1,32 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Meal Finder</h1>
+        <h2>Find any recipe</h2>
+    </header>
+    <div class="wrapper">
+        <div class="search">
+            <input type="text" id='search'>
+            <button onclick="searchRecipe()" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+            <button onclick="searchRandom()" type="submit"><i class="fa fa-random" aria-hidden="true"></i></button>
+        </div>
+        <div class="recipeBox">
+            <div class="row" id="row">
+            </div>
+        </div>
+
+    </div>
+    <footer>2020 Made by kulsoom</footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
